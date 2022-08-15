@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./nature.jpg");
+  background-size: contain;
+}
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: white;
+}
+.clock {
+  display: flex;
+  gap: 5px;
+}
+.clock span {
+  background-color: slateblue;
+  height: 80px;
+  width: 100px;
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.clock .text {
+  height: 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: darkblue;
+  opacity: 0.8;
+}
